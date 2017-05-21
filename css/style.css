@@ -1,0 +1,252 @@
+/* Default CSS */
+*{margin: 0; padding: 0;}
+body {
+  font-family: Leelawadee; 
+  font-size: 16px; 
+  line-height: 18px; 
+  color: #848484;
+}
+
+/* Main CSS */
+
+.sliderframe {
+  background: #ddd none repeat scroll 0 0;
+  height: 608px;
+  margin: 0 auto;
+  width: 1600px;
+}
+.slider {
+  width: 1200px;
+  margin: 0 auto;
+}
+.slider_img {
+  position: absolute;
+  border-top: 8px solid #2ECC71;
+}
+.slider_img img {
+  width: auto;
+}
+.logo {
+  position: relative;
+}
+.logo img {
+  margin-bottom: 40px;
+  margin-left: 130px;
+  margin-top: 165px;
+}
+.logo img:hover {
+  
+}
+.logo h3 {
+  color: #fff;
+  font-family: Leelawadee;
+  font-size: 24px;
+  line-height: 30px;
+  width: 380px;
+  margin-left: 135px;
+}
+
+.link {
+  margin-left: 135px;
+  margin-top: 30px;
+  position: relative;
+}
+.link img {
+  opacity: 0.8;
+}
+.link img:hover {
+  opacity: 1.0;
+}
+
+.featureframe {
+  height: 335px; 
+  background: #FFFFFF;
+}
+.feature {
+  margin: 60px auto 0;
+  width: 1200px;
+}
+.editable {
+  float: left;
+  width: 380px;
+  text-align: center;
+  display: block;
+}
+.editable img { 
+  
+}
+.editable h3 {
+  color: #222222;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.editable p {
+  color: #848484;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.design {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 380px;
+  margin-left: 30px;
+}
+.design img {}
+.design h3 {
+  color: #222222;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.design p {
+  color: #848484;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.audience {
+  float: right;
+  width: 380px;
+  text-align: center;
+  display: block;
+}
+.audience img {}
+.audience h3 {
+  color: #222222;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.audience p {
+  color: #848484;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.notifframe {
+  height: 430px; 
+  background: #E3E3E3;
+}
+.notif {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.notifleft {
+  float:  left;
+  width: 580px;
+}
+.notifleft h3 {
+  color: #222222;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.notifleft p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.notifleft input[type="text"] {
+  border: 0 solid #dddddd;
+  border-radius: 15px;
+  font-size: 18px;
+  height: 50px;
+  padding-left: 13px;
+  position: absolute;
+  width: 440px;
+}
+.notifleft input[type="submit"] {
+  background: #2dcc70 url("img/notify_button.png") no-repeat fixed 0 0;
+  border: 0 none #fff;
+  border-radius: 0 15px 15px 0;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  height: 50px;
+  margin-left: 333px;
+  position: relative;
+  width: 120px;
+}
+
+.notifright {
+  float:  right;
+  width:  580px;
+}
+.notifright iframe {
+  margin-top: 60px;
+  float: right;
+}
+
+.userframe {height: 470px; background: #FFFFFF;}
+.user {
+  margin: 60px auto 0;
+  width: 1200px;
+  text-align: center;
+}
+.comments p {
+  font-size: 20px;
+  line-height: 35px;
+  font-style: italic;
+  margin-bottom:  25px;
+}
+.comments h3 {
+  font-size: 20px;
+  color: #222222;
+  margin-bottom: 35px;
+}
+.comments img {
+  opacity: 0.7;
+}
+.comments img:hover {
+  opacity: 1.0;
+}
+
+.social {
+  margin-top: 70px;
+}
+.social h3 {
+  color: #222222;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.social p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.social img {
+
+}
+.social img:hover {
+color: #2DCC70;
+}
+
+.footerframe {
+  height: 130px; 
+  background: #E3E3E3;
+}
+.footer {
+  margin: 0 auto;
+  width: 1200px;
+}
+.footer ul {
+  font-size: 18px;
+  list-style: outside none none;
+  margin-left: 320px;
+}
+.footer ul li {
+  float: left;
+  padding-right: 35px;
+  margin-top: 60px;
+}
+.footer ul li a {
+  color: #626262;
+  text-align: center;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #000;
+}
